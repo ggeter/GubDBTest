@@ -3,6 +3,7 @@
   "name": "GunDBStarter",
   "builds": [
     { "src": "*.html", "use": "@now/static" },
+    { "src": "gundb/**/*.*", "use": "@now/static" },
     { "src": "*.js", "use": "@now/node" }
   ],
   "routes": [{ "src": "/", "dest": "index.html" }]
